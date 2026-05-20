@@ -1,20 +1,30 @@
-# i = 0
-# while(i <= 100):
-#   print(f"{i} \n")
-#   i += 1
+# nomes = ["Ana","Bruno","Carla","Diego","Fernanda"]
+# print(nomes[1])
+# print(len(nomes))
+# nomes.append("Gabriel")
+# nomes.insert(1,"Allan")
+# print(nomes)
+# nomes.clear
+# print(nomes)
+# del(nomes)
+# print(nomes)
 
-# for i in range(0, 101, 1):
-#   print(f"{i} \n")
 
-nomes = ["Ana", "bruno", "carla", "diego","eduarda"]
-nomes.append("Felipe")
-nomes.append("Gabriela")
-nomes.insert(1,"André")
-nomes2 = ["Heitor","Ingred","Julio","Kamila","ludson","Maria","nicolas"]
-nomes.extend(nomes2)
-nomes.append("Ana")
-nomes.remove("Ana")
-nomes.remove("Ana")
-nomes.clear()
-for nome in nomes:
-  print(nome) 
+#Exemplo de Dicionário
+info = {
+  "Nomes": ["Ana","Bruno","Carla"],
+  "Idades":(10,25,14),
+  "parentesco":{
+    "nome":"Ana",
+    "Pais":["Maria","João"]
+  }
+}
+
+# print(info.Nomes)
+
+#Exenplos de tupla
+notas = (9.4,8.3,5.2,10.0,4.8
+print(f"Nota na posição 2: {notas[2]}")
+notas.insert(1,10.0)
+notas.append(5.8)
+del(notas)
